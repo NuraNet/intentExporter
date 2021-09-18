@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mix | Intent Exporter</title>
+        <link rel="stylesheet" href="src/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+    <p><h1 class="text-center">Mix | Intent Exporter</h1></p>
+    <div>
+        
+        <input type="file" class="btn btn-primary">
+        <p></p>
+        <div class="form-group">
+            <p>Please select the trsx to export intents.</p>
+            <textarea class="form-control" cols = "100" rows="11"></textarea>
+          </div>
+          <div id = "countIntents"></div>
+    </div>
+    
+    
+    
+
+   
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Wrong file format!</h4>
+      </div>
+      <div class="modal-body">
+        <div id="fileAlert"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- End of Modal -->
+   
+ 
+
+
+
+<script src="src/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>   

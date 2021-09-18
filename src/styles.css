@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#fileAlert {
+    color:red;
+    font-weight: bold;
+}
